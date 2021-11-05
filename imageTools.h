@@ -35,4 +35,10 @@ class ImageTools {
 		static CImage getSmoothenImage(CImage& image);
 		static CImage getSharpenImageLaplace(CImage& image, int c);
 		static CImage getSharpenImageUnsharpMask(CImage& image, int k);
+
+		// Übung 4
+
+		static CImage gaussianFilter(CImage& image, int radius, bool high);
+		static CImage gaussianLowPassFilter(CImage& image, int radius);
+		static CImage gaussianHighPassFilter(CImage& image, int radius);
 };
