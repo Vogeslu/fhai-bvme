@@ -156,6 +156,7 @@
     <ClCompile Include="imageToolsLesson2.cpp" />
     <ClCompile Include="imageToolsLesson3.cpp" />
     <ClCompile Include="imageToolsLesson4.cpp" />
+    <ClCompile Include="imageToolsLesson5.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

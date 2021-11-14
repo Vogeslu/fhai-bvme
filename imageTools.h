@@ -41,4 +41,7 @@ class ImageTools {
 		static CImage gaussianFilter(CImage& image, int radius, bool high);
 		static CImage gaussianLowPassFilter(CImage& image, int radius);
 		static CImage gaussianHighPassFilter(CImage& image, int radius);
+
+		// Übung 5
+		static CImage adaptiveMedianfilter(CImage& image, int sMax);
 };
