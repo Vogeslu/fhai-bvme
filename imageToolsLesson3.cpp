@@ -15,8 +15,8 @@ CImage ImageTools::getSmoothenImage(CImage& image) {
 			int upperValue = 0;
 			int lowerValue = 0;
 
-			for(int s = -1; s < 1; s++)
-				for (int t = -1; t < 1; t++) {
+			for(int s = -1; s <= 1; s++)
+				for (int t = -1; t <= 1; t++) {
 					int color = greyscaleImage.getPointValue(x + s, y + t).getGrey();
 
 					upperValue += smoothenMatrix[s + 1][t + 1] * color;

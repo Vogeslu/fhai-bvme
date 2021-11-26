@@ -44,4 +44,12 @@ class ImageTools {
 
 		// Übung 5
 		static CImage adaptiveMedianfilter(CImage& image, int sMax);
+
+		// Übung 6
+		static CImage getLinearHistogramImageForColorChannel(CImage& image, int channel);
+		static CImage getLinearHistogramImageRGB(CImage& image);
+
+		// Übung 7
+		static CImage sobelfilter2Sides(CImage& image);
+		static CImage sobelfilter4Sides(CImage& image);
 };
